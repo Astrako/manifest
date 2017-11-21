@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!--
+    * target: a3y17lte
+    * date: 02.10.2019
+    * rom: LineageOS 17.0
+    -->
+
+    <!-- Remote -->
+    <remote fetch="https://github.com/Astrako/" name="Astrako" />
+    <remote fetch="https://github.com/LineageOS/" name="LineageOS" />
+	
+    <!-- Device -->
+    <project name="android_device_samsung_a3y17lte" path="device/samsung/a3y17lte" remote="Astrako" revision="lineage-17.0" />
+    <project name="android_device_samsung_universal7870-common" path="device/samsung/universal7870-common" remote="Astrako" revision="lineage-17.0" />
+
+    <!-- Kernel -->
+    <project name="android_kernel_samsung_exynos7870" path="kernel/samsung/exynos7870" remote="Astrako" revision="testing" />
+
+    <!-- Vendor -->
+    <project name="android_vendor_samsung_a3y17lte" path="vendor/samsung/a3y17lte" remote="Astrako" revision="master" />
+    <project name="android_vendor_samsung_universal7870-common" path="vendor/samsung/universal7870-common" remote="Astrako" revision="master" />
+
+    <!-- Hardware -->   
+    <project name="android_hardware_samsung" path="hardware/samsung" remote="Astrako" revision="lineage-17.0" />
+    <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="LineageOS" revision="lineage-17.0" />
+		
+</manifest>
